@@ -519,12 +519,17 @@ margin-bottom: 8px;
     border-radius: 4px;
     width: 264px;
     height: 40px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
 }
 
 .form-button {
     margin-left: 24px;
     display:flex;
-    padding: 8px 24px;
     gap: 16px;
     border-radius: 4px;
     min-width: 165px;
@@ -541,9 +546,9 @@ margin-bottom: 8px;
 
 .form-list{
     display: flex;
- /*   gap: 16px;*/
- align-items: center;
- justify-content: center;;
+    align-items: center;
+    justify-content: center;
+    gap:24px;
 }
 
 .form-button-name {
