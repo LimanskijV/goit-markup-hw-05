@@ -527,10 +527,12 @@ margin-bottom: 8px;
     padding: 8px 24px;
     gap: 16px;
     border-radius: 4px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4D5AE5;
     color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
 }   
 
 .form-icon {
@@ -540,6 +542,8 @@ margin-bottom: 8px;
 .form-list{
     display: flex;
  /*   gap: 16px;*/
+ align-items: center;
+ justify-content: center;;
 }
 
 .form-button-name {
