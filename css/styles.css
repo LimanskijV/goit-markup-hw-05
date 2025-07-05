@@ -530,8 +530,23 @@ margin-bottom: 8px;
     width: 165px;
     height: 40px;
     background-color: #4D5AE5;
+    color: #FFFFFF;
 }   
 
 .form-icon {
     fill: #FFFFFF;
+}
+
+.form-list{
+    display: flex;
+    gap: 16px;
+}
+
+.form-button-name {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
 }
