@@ -545,6 +545,13 @@ margin-bottom: 8px;
     color: #FFFFFF;
     justify-content: center;
     align-items: center;
+    
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
 }   
 
 .form-icon {
@@ -559,10 +566,5 @@ margin-bottom: 8px;
 }
 
 .form-button-name {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.04em;
-    text-align: center;
+
 }
