@@ -27,6 +27,14 @@ a:focus{
     text-decoration: none;
 }
 
+textarea{
+    width: 360px;
+    height: 120px;
+    border: 1px solid #2E2F42;
+    border-radius: 4px;
+    resize: none;
+}
+
 .container { 
 max-width: 1158px;
 padding-left:  15px;
@@ -617,6 +625,11 @@ margin-bottom: 8px;
     right: 24px;
 }
 
+.modal-button-close:hover {
+    background-color: #404BBF;
+    border: none;
+}
+
 .modal-button-close-icon {
     fill: #2E2F42;
 }
@@ -652,3 +665,4 @@ margin-bottom: 4px;
     height: 40px;
     margin-bottom: 8px;
 }
+
