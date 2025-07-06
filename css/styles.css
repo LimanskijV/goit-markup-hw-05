@@ -630,6 +630,11 @@ margin-bottom: 8px;
     border: none;
 }
 
+.modal-button-close:hover svg{
+    fill: #ffffff;
+    
+}
+
 .modal-button-close-icon {
     fill: #2E2F42;
 }
@@ -659,10 +664,17 @@ margin-bottom: 4px;
 }
 
 .modal-input {
-    border: 1px solid #4D5AE5;
+    border: 1px solid #2E2F42;
     border-radius: 4px;
     width: 360px;
     height: 40px;
     margin-bottom: 8px;
 }
 
+.modal-input:focus {
+    border: 1px solid #4D5AE5;
+}
+
+.svg-color {
+    fill: #2E2F42;
+}
