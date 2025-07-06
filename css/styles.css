@@ -686,7 +686,13 @@ margin-bottom: 4px;
     flex-direction: row;
 }
 
-/*.svg-position {
+.svg-position {
     position: absolute;
-    }*/
+    top: 8px;
+    left: -166px;
+    }
+
+.modal-div-position {
+    position: relative;
+}
 
