@@ -632,8 +632,7 @@ margin-bottom: 8px;
 }
 
 .modal-button-close:hover svg{
-    fill: #ffffff;
-    
+    fill: #ffffff;    
 }
 
 .modal-button-close-icon {
@@ -651,8 +650,10 @@ margin-bottom: 8px;
     margin-bottom: 16px;
 }
 
+/*Form*/
 .modal-form {
-    padding-left: 24px;
+    width: 408px;
+    min-height: 584px;
 }
 
 .modal-label{
@@ -662,14 +663,14 @@ line-height: 117%;
 letter-spacing: 0.04em;
 color: #8E8F99;
 margin-bottom: 4px;
+display: block;
 }
 
 .modal-input {
     border: 1px solid #2E2F42;
     border-radius: 4px;
-    width: 360px;
-    height: 40px;
-    margin-bottom: 8px;
+    width: 100%;
+    height: 40px;   
     outline: none;
 }
 
@@ -696,3 +697,11 @@ margin-bottom: 4px;
     position: relative;
 }
 
+.modal-form{
+    width: 408px;
+    min-height: 584px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;  
+    position: relative;
+}

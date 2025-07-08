@@ -460,13 +460,14 @@
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
           </button>
+          <!--Form-->
           <form class="modal-form">
             <p class="modal-total">Leave your contacts and we will call you back</p>
             <!--Name-->
             <div>
               <label for="user-name" class="modal-label">Name</label>
-              <div>
-                <input type="text" id="user-name" class="modal-input" required />
+              <div class="modal-div-position">
+                <input type="text" id="user-name" class="modal-input" required placeholder="Your name"/>
                 <svg widht="18" height="24" class="svg-color">
                   <use href="./images/icons.svg#icon-name"></use>
                 </svg>
@@ -476,7 +477,7 @@
             <div>
               <label for="user-phone" class="modal-label" >Phone</label>
               <div>
-                <input id="user-phone" type="tel" class="modal-input" required />
+                <input id="user-phone" type="tel" class="modal-input" required placeholder="Your telephone"/>
                 <svg widht="18" height="24" class="svg-color">
                   <use href="./images/icons.svg#icon-phone"></use>
                 </svg>
@@ -486,15 +487,18 @@
             <div>
               <label for="user-email" class="modal-label">Email</label>
               <div> 
-                <input id="user-email" type="email" class="modal-input" required />
+                <input id="user-email" type="email" class="modal-input" required placeholder="Your email"/>
                 <svg widht="18" height="24" class="svg-color">
                   <use href="./images/icons.svg#icon-email"></use>
                 </svg>
               </div>
             </div>
             <!--Comment-->
-            <textarea name="comment" rows="5"></textarea>
-
+            <textarea name="comment" rows="5" placeholder="Enter text"></textarea>
+            <div>
+              <label>I accept the terms and conditions of the Privacy Policy</label>
+              <input type="checkbox">
+            <button>Send</button>
           </form>
        </div> 
     </div> 
