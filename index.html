@@ -461,8 +461,9 @@
             </svg>
           </button>
          <p class="modal-total">Leave your contacts and we will call you back</p> 
+         <!--form-->
          <form class="modal-form">
-
+            <!--Name-->
             <div class="div-input-container">
               <label for="user-name" class="modal-label">Name</label>
               <div class="modal-div-position">  
@@ -472,23 +473,27 @@
                   </svg>              
               </div>
             </div>
-
-            <div class="modal-div-position">
+            <!--Phone-->
+            <div class="div-input-container">
               <label for="user-phone" class="modal-label" >Phone</label>
+              <div class="modal-div-position">
               <input id="user-phone" type="tel" class="modal-input" required placeholder="Your telephone"/>
-                <svg width="18" height="24" class="svg-color svg-position">
-                  <use href="./images/icons.svg#icon-phone"></use>
-                </svg>              
+                  <svg width="18" height="24" class="svg-color svg-position">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                  </svg>              
+              </div>
             </div>
-
-            <div class="modal-div-position">
+            <!--Email--> 
+            <div class="div-input-container-last">
               <label for="user-email" class="modal-label">Email</label>
+              <div class="modal-div-position">
                 <input id="user-email" type="email" class="modal-input" required placeholder="Your email"/>
-                <svg width="18" height="24" class="svg-color svg-position">
-                  <use href="./images/icons.svg#icon-email"></use>
-                </svg>
+                  <svg width="18" height="24" class="svg-color svg-position">
+                    <use href="./images/icons.svg#icon-email"></use>
+                  </svg>
+              </div>
             </div>
-
+            <!--Comment-->
             <div>
             <label class="modal-label">Comment</label>  
             <textarea id="user-comment" name="comment" rows="5" placeholder="Enter text"></textarea>
