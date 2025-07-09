@@ -769,5 +769,12 @@ display: block;
     border-color: #4D5AE5;
     color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4);
+}
 
+.text-area:focus {
+    border-color: #4D5AE5;
+}
+
+.checkbox-container {
+    margin-bottom: 24px;
 }
