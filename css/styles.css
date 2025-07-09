@@ -729,3 +729,7 @@ display: block;
     color: #ffffff;
     align-items: center;;
 }
+
+.div-input-container{
+    margin-bottom: 8px;
+}
