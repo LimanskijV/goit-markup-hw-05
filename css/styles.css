@@ -778,3 +778,11 @@ display: block;
 .checkbox-container {
     margin-bottom: 24px;
 }
+
+.div-input-container-comment {
+    margin-bottom: 16px;
+}
+
+.checkbox-class {
+    visibility: hidden;
+}
