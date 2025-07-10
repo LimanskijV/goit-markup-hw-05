@@ -730,14 +730,6 @@ display: block;
     position: relative;
 }
 
-.modal-form{
-    width: 408px;
-    min-height: 584px;
-    display: flex;
-    flex-direction: column;
-    padding: 24px;  
-    position: relative;
-}
 
 .button-down {
     border: none;
