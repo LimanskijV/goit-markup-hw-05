@@ -640,6 +640,7 @@ margin-bottom: 8px;
 .modal-button-close:focus {
     background-color: #404BBF;
     border: none;
+    fill: #ffffff;
 }
 
 .modal-button-close:hover + svg,
@@ -810,11 +811,15 @@ display: block;
 }
 
 .modal-link{
-    color: #4d5ae5;;
+    color: #4d5ae5;
 }
 
 .checkbox:checked+.label .span-1{
     background-color: #404bbf;
     border: none;
+    
+}
+
+.checkbox:checked+.label .span-1 + svg{
     fill: #F4F4FD;
 }
